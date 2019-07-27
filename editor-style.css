@@ -1,0 +1,63 @@
+/*
+Theme Name: Mardi Gras
+Description: Used to style the TinyMCE editor.
+*/
+
+body {
+	font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+	margin: 2em;
+}
+
+a,
+a:visited {
+	color: #111;
+	text-decoration: none;
+	transition: all 1.1s ease;
+	border-bottom: 2px solid #461D7C;
+}
+
+a:focus {
+	transition: all 0s ease;
+	border-bottom: 2px solid transparent;
+	outline-offset: 4px;
+}
+
+a:hover {
+	border-bottom: 2px solid transparent;
+}
+
+blockquote {
+	margin: 0 1.5em 2em 1.5em;
+	border-left: 4px solid #000;
+	padding-left: 1em;
+}
+
+cite {
+	display: block;
+	margin-top: 1em;
+	font-style: initial;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #333;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	overflow: hidden;
+	padding: 1.6em;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	max-width: 100%;
+}
+
+.mce-content-body code,
+code {
+	display: block;
+	margin: 1.5em;
+	background:#eee;
+}
