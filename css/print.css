@@ -1,0 +1,50 @@
+/**
+ * Print Style Sheet for Mardi Gras
+ */
+
+@media print {
+	body {
+		background: #fff;
+		margin: 0;
+		font: 12pt Georgia, "Times New Roman", Times, serif;
+		line-height: 1.5;
+	}
+
+	*{color: #000 !important;}
+
+	h1 {
+		font-size: 20pt;
+	}
+
+	h2 {
+		font-size: 14pt;
+	}
+
+	img {
+		max-width: 500px;
+	}
+
+	#wrapper,
+	#main {
+		margin: 0;
+		width: 100%;
+		display: block;
+	}
+
+	form,
+	button,
+	input,
+	select,
+	textarea,
+	#masthead,
+	.widget-area,
+	#site-navigation,
+	#respond,
+	.post-navigation,
+	.navigation,
+	.sharedaddy,
+	.site-footer {
+		display: none;
+	}
+
+}

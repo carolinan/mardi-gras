@@ -1,0 +1,137 @@
+/*
+Theme Name: Mardi Gras
+Description: Used to style WooCommerce pages, if the WooCommerce plugin is active.
+*/
+
+.woocommerce-page .site-main {
+    display: block;
+}
+
+.woocommerce .products ul,
+.woocommerce ul.products {
+    margin: 1em 0 1em;
+    padding: 3em 4em 0 4em;
+}
+
+.single-product .site-main {
+    margin-top: 4em;
+}
+
+.single-product .product_title.entry-title {
+    margin: 0;
+    text-align: left;
+}
+
+.woocommerce .product_meta .posted_in {
+    display: block;
+    clear: both;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 1.2em;
+}
+
+.woocommerce .product_meta .posted_in a:hover,
+.woocommerce .product_meta .posted_in a:focus {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price,
+.woocommerce ul.products li.product .price {
+	color: #111;
+}
+
+.woocommerce span.onsale {
+    background-color: #461D7C;
+    color:#fff;
+}
+
+.woocommerce a.woocommerce-LoopProduct-link.woocommerce-loop-product__link img,
+.woocommerce-product-gallery__image a img {
+    padding: 4px;
+    border: 1px dashed #eee;
+}
+
+.woocommerce a.woocommerce-LoopProduct-link.woocommerce-loop-product__link:hover img,
+.woocommerce a.woocommerce-LoopProduct-link.woocommerce-loop-product__link:focus img,
+.woocommerce .woocommerce-product-gallery__image a:hover img,
+.woocommerce .woocommerce-product-gallery__image a:focus img {
+    border: 1px dashed #461D7C;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title:hover,
+.woocommerce ul.products li.product .woocommerce-loop-product__title:focus,
+.woocommerce ul.products li.product a.added_to_cart:hover,
+.woocommerce ul.products li.product a.added_to_cart:focus {
+    text-decoration: underline;
+}
+
+.woocommerce form .form-row input#coupon_code,
+.woocommerce-cart table.cart td.actions .coupon .input-text {
+    margin: 0 10px 2px 2px;
+    padding: 5px 4px 4px 8px;
+    font-weight: 700;
+    font-size: 100%;
+    min-width: 160px;
+}
+
+.woocommerce .quantity .qty {
+    margin: 0 5px 2px 2px;
+    padding: 3px 3px 5px 3px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.woocommerce div.product p.price del,
+del .woocommerce-Price-amount {
+    color:#111;
+    margin-right: 6px;
+}
+
+.woocommerce #respond input#submit:focus, 
+.woocommerce a.button:focus, 
+.woocommerce button.button:focus, 
+.woocommerce input.button:focus {
+    outline: 1px dashed #111;
+}
+
+.woocommerce table.shop_table th,
+.woocommerce table.shop_table td {
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.woocommerce p.stars a,
+.woocommerce a.button:hover,
+.woocommerce table.shop_attributes th,
+.woocommerce table.shop_attributes td {
+    border: none;
+}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+    background: #461D7C;
+    outline-offset: 5px;
+    border: none;
+}
+
+.woocommerce #respond input#submit.alt:focus,
+.woocommerce a.button.alt:focus,
+.woocommerce button.button.alt:focus,
+.woocommerce input.button.alt:focus,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+    background: #111;
+    outline-offset: 5px;
+    border: none;
+}
+
+@media screen and (max-width: 700px) {
+    .woocommerce-page .site-main {
+        width: 85%;
+    }
+}

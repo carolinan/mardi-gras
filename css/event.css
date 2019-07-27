@@ -1,0 +1,15 @@
+.css-events-list table.events-table td {
+    padding: 1em;
+}
+
+.em-search-wrapper div.css-search {
+    border: none;
+}
+
+article.type-event,
+article.type-location {
+    padding: 2.5em;
+    min-height: 340px;
+    position: relative;
+    min-width: 0;
+}

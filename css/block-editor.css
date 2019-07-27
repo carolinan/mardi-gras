@@ -1,0 +1,50 @@
+/*
+Theme Name: Mardi Gras
+Description: Used to style the block editor.
+*/
+
+.edit-post-visual-editor,
+.edit-post-visual-editor .editor-block-list__block-edit,
+.edit-post-visual-editor .editor-block-list__block {
+	font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Matches entry-title in style.css. */
+.editor-post-title__block .editor-post-title__input {
+	font-family: 'Pacifico', 'Oswald', 'Raleway', 'Poiret One', 'Lobster', 'Righteous', 'Luckiest Guy', 'Laila', 'Alegreya', 'Berkshire Swash', 'Griffy', 'Grand Hotel', BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+	letter-spacing: 2px; 
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce a,
+.editor-rich-text__tinymce a,
+.editor-rich-text__tinymce a:visited {
+	color: #111;
+	text-decoration: none;
+	transition: all 1.1s ease;
+	border-bottom: 2px solid currentColor;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce a:focus,
+.editor-rich-text__tinymce a:focus {
+	transition: all 0s ease;
+	border-bottom: 2px solid transparent;
+	outline-offset: 4px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce a:hover,
+.editor-rich-text__tinymce a:hover {
+	border-bottom: 2px solid transparent;
+}
+
+.wp-block-quote cite,
+.wp-block-quote footer,
+.wp-block-quote__citation,
+cite {
+	display: block;
+	margin-top: 1em;
+	font-style: initial;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #333;
+}
